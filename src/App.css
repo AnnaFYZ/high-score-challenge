@@ -58,6 +58,15 @@ h3 {
 h1 {
   font-size: 36px;
 }
+
+.Button {
+  position: fixed;
+  font-size: large;
+  margin: auto;
+  background-color: yellow;
+  color: blue;
+  width: 150px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
