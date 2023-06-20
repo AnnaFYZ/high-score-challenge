@@ -82,6 +82,38 @@ h1 {
   color: #61dafb;
 }
 
+.StyledTable{
+  border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.StyledTable caption {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.StyledTable th,
+.StyledTable td {
+    padding: 12px 15px;
+}
+
+.StyledTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.StyledTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.StyledTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
